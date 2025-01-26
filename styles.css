@@ -1,0 +1,53 @@
+/* Base styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #ff6b6b;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #4ecdc4;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Retro elements */
+h1, h2 {
+    font-family: 'Courier', monospace;
+    color: #e74c3c; /* Retro red */
+}
+
+/* Modern touch */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        margin: 5px 0;
+    }
+}
